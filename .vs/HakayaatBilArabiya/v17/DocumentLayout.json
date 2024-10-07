@@ -1,9 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\iimna\\Desktop\\HakayaatBilArabiya\\",
+  "WorkspaceRootPath": "C:\\Users\\iimna\\Desktop\\A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|c:\\users\\iimna\\desktop\\hakayaatbilarabiya\\hakayaatbilarabiya\\migrations\\20240920105304_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|c:\\users\\iimna\\desktop\\a\\hakayaatbilarabiya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|solutionrelative:hakayaatbilarabiya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|c:\\users\\iimna\\desktop\\a\\hakayaatbilarabiya\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|solutionrelative:hakayaatbilarabiya\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|c:\\users\\iimna\\desktop\\a\\hakayaatbilarabiya\\views\\stories\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|solutionrelative:hakayaatbilarabiya\\views\\stories\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|c:\\users\\iimna\\desktop\\a\\hakayaatbilarabiya\\views\\stories\\generatestory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|solutionrelative:hakayaatbilarabiya\\views\\stories\\generatestory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|c:\\users\\iimna\\desktop\\a\\hakayaatbilarabiya\\views\\stories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|solutionrelative:hakayaatbilarabiya\\views\\stories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|c:\\users\\iimna\\desktop\\a\\hakayaatbilarabiya\\views\\stories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|solutionrelative:hakayaatbilarabiya\\views\\stories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|c:\\users\\iimna\\desktop\\a\\hakayaatbilarabiya\\views\\stories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|solutionrelative:hakayaatbilarabiya\\views\\stories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|c:\\users\\iimna\\desktop\\a\\hakayaatbilarabiya\\views\\stories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|solutionrelative:hakayaatbilarabiya\\views\\stories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|c:\\users\\iimna\\desktop\\a\\hakayaatbilarabiya\\services\\watsonassistantclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|solutionrelative:hakayaatbilarabiya\\services\\watsonassistantclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|c:\\users\\iimna\\desktop\\a\\hakayaatbilarabiya\\services\\allamsynonymsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|solutionrelative:hakayaatbilarabiya\\services\\allamsynonymsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|c:\\users\\iimna\\desktop\\a\\hakayaatbilarabiya\\migrations\\20240920105304_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59244054-338C-4C1D-A48A-0DB804B0F16B}|HakayaatBilArabiya\\HakayaatBilArabiya.csproj|solutionrelative:hakayaatbilarabiya\\migrations\\20240920105304_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,19 +59,149 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240920105304_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\iimna\\Desktop\\HakayaatBilArabiya\\HakayaatBilArabiya\\Migrations\\20240920105304_InitialCreate.cs",
-              "RelativeDocumentMoniker": "HakayaatBilArabiya\\Migrations\\20240920105304_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\iimna\\Desktop\\HakayaatBilArabiya\\HakayaatBilArabiya\\Migrations\\20240920105304_InitialCreate.cs",
-              "RelativeToolTip": "HakayaatBilArabiya\\Migrations\\20240920105304_InitialCreate.cs",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Program.cs",
+              "RelativeDocumentMoniker": "HakayaatBilArabiya\\Program.cs",
+              "ToolTip": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Program.cs",
+              "RelativeToolTip": "HakayaatBilArabiya\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:47:57.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HakayaatBilArabiya\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HakayaatBilArabiya\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T10:47:51.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Stories\\Search.cshtml",
+              "RelativeDocumentMoniker": "HakayaatBilArabiya\\Views\\Stories\\Search.cshtml",
+              "ToolTip": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Stories\\Search.cshtml",
+              "RelativeToolTip": "HakayaatBilArabiya\\Views\\Stories\\Search.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T10:47:43.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenerateStory.cshtml",
+              "DocumentMoniker": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Stories\\GenerateStory.cshtml",
+              "RelativeDocumentMoniker": "HakayaatBilArabiya\\Views\\Stories\\GenerateStory.cshtml",
+              "ToolTip": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Stories\\GenerateStory.cshtml",
+              "RelativeToolTip": "HakayaatBilArabiya\\Views\\Stories\\GenerateStory.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T10:47:38.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Stories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HakayaatBilArabiya\\Views\\Stories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Stories\\Edit.cshtml",
+              "RelativeToolTip": "HakayaatBilArabiya\\Views\\Stories\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T10:47:35.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Stories\\Details.cshtml",
+              "RelativeDocumentMoniker": "HakayaatBilArabiya\\Views\\Stories\\Details.cshtml",
+              "ToolTip": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Stories\\Details.cshtml",
+              "RelativeToolTip": "HakayaatBilArabiya\\Views\\Stories\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T10:47:31.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Stories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "HakayaatBilArabiya\\Views\\Stories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Stories\\Delete.cshtml",
+              "RelativeToolTip": "HakayaatBilArabiya\\Views\\Stories\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T10:47:28.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Stories\\Create.cshtml",
+              "RelativeDocumentMoniker": "HakayaatBilArabiya\\Views\\Stories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Views\\Stories\\Create.cshtml",
+              "RelativeToolTip": "HakayaatBilArabiya\\Views\\Stories\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T10:47:24.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WatsonAssistantClient.cs",
+              "DocumentMoniker": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Services\\WatsonAssistantClient.cs",
+              "RelativeDocumentMoniker": "HakayaatBilArabiya\\Services\\WatsonAssistantClient.cs",
+              "ToolTip": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Services\\WatsonAssistantClient.cs",
+              "RelativeToolTip": "HakayaatBilArabiya\\Services\\WatsonAssistantClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:46:59.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AllamSynonymsService.cs",
+              "DocumentMoniker": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Services\\AllamSynonymsService.cs",
+              "RelativeDocumentMoniker": "HakayaatBilArabiya\\Services\\AllamSynonymsService.cs",
+              "ToolTip": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Services\\AllamSynonymsService.cs",
+              "RelativeToolTip": "HakayaatBilArabiya\\Services\\AllamSynonymsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T10:33:53.754Z",
+              "WhenOpened": "2024-10-07T10:46:50.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240920105304_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Migrations\\20240920105304_InitialCreate.cs",
+              "RelativeDocumentMoniker": "HakayaatBilArabiya\\Migrations\\20240920105304_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\iimna\\Desktop\\A\\HakayaatBilArabiya\\Migrations\\20240920105304_InitialCreate.cs",
+              "RelativeToolTip": "HakayaatBilArabiya\\Migrations\\20240920105304_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:33:53.754Z",
+              "EditorCaption": ""
             }
           ]
         }

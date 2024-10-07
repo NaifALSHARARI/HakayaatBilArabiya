@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\HakayaatBilArabiya",
     "\\HakayaatBilArabiya\\Migrations"
   ],
-  "SelectedNode": "\\HakayaatBilArabiya.sln",
+  "SelectedNode": "\\HakayaatBilArabiya\\Migrations\\20240920105304_InitialCreate.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -70,7 +70,6 @@ namespace HakayaatBilArabiya.Services
 
         public async Task<string> GenerateTextAsync(string المدخل_اليدوي, string الشخصيات, string الحيوانات, string المكان, string الموسم, string الوقت)
         {
-            // قائمة عبارات البداية
             var عبارات_البداية = new List<string>
     {
         "كان يا ما كان،",
@@ -78,7 +77,6 @@ namespace HakayaatBilArabiya.Services
         "في يوم من الأيام،"
     };
 
-            // اختيار عبارة بداية عشوائية
             var random = new Random();
             int index = random.Next(عبارات_البداية.Count);
             string بداية_القصة = عبارات_البداية[index];
