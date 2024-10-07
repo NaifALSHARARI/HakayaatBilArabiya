@@ -1,0 +1,98 @@
+﻿@model IEnumerable<HakayaatBilArabiya.Models.Story>
+
+@{
+    ViewData["Title"] = "Stories";
+}
+
+<div class="container">
+    <div class="logo-container" style="text-align: center; margin-top: 2px; position: relative;">
+        <img src="~/images/333.png" alt="Logo 3" style="width: 90px; height: 90px; position: absolute; top: -90px; left: 300px;">
+    </div>
+    <div class="logo-container" style="text-align: center; margin-top: 2px; position: relative;">
+        <img src="~/images/56.png" alt="Logo 3" style="width: 70px; height: 70px; position: absolute; top: -90px; left: 900px;">
+    </div>
+    <div class="logo-container" style="text-align: center; margin-top: 2px; position: relative;">
+        <img src="~/images/rose.png" alt="Logo 3" style="width: 80px; height: 80px; position: absolute; top: 80px; left: 900px;">
+    </div>
+    <div class="logo-container" style="text-align: center; margin-top: 2px; position: relative;">
+        <img src="~/images/55.png" alt="Logo 3" style="width: 65px; height: 65px; position: absolute; top: 80px; left: 200px;">
+    </div>
+
+    <h1 class="text-center story-heading">ابدأ كتابة قصتك الإبداعية اليوم!!</h1>
+    <div class="text-center mb-3">
+        <a asp-action="GenerateStory" class="btn btn-primary start-button">ابدأ</a>
+    </div>
+
+    <div class="synonyms-box" style="margin-top: 20px; padding: 20px; background: linear-gradient(to right, #e0f7fa, #b2ebf2); border-radius: 15px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+        <h2 class="text-center" style="font-family: 'Blabeloo', sans-serif; color: #00796b;">مرادفات الكلمات</h2>
+        <form asp-action="GetSynonyms" method="post" class="form-inline text-right" style="direction: rtl;">
+            <label for="word" class="mr-sm-2">أدخل كلمة</label>
+            <input type="text" id="word" name="word" placeholder="أدخل كلمة" class="form-control mb-2 mr-sm-2" style="border-radius: 10px; border: 2px solid #00796b; text-align: right;" required />
+            <button type="submit" class="btn btn-primary mb-2" style="background-color: #00796b; border-color: #004d40; padding: 10px 20px; border-radius: 10px;">ابحث عن المرادفات</button>
+        </form>
+        @if (ViewBag.Synonyms != null)
+        {
+            <div class="synonyms-list text-center" style="margin-top: 20px;">
+                <h4 style="color: #00796b;">المرادفات لكلمة '@ViewBag.Word':</h4>
+                <ul class="list-unstyled" style="font-size: 18px; text-align: right;">
+                    @foreach (var synonym in ViewBag.Synonyms as List<string>)
+                    {
+                        <li style="margin-bottom: 10px; color: #004d40;">@Html.Raw(synonym)</li>
+                    }
+                </ul>
+            </div>
+        }
+        else if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger text-center">
+                @ViewBag.Error
+            </div>
+        }
+
+
+        else if (ViewBag.Error != null)
+        {
+        <div class="alert alert-danger text-center">
+            @ViewBag.Error
+        </div>
+        }
+    </div>
+
+
+    <div class="container">
+        <div class="story-wrapper">
+            @if (!Model.Any())
+            {
+                <div class="alert alert-info text-center">
+                    لا توجد قصص متاحة حالياً. قم بإنشاء قصة جديدة!
+                </div>
+            }
+            else
+            {
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-md-4 mb-4">
+                            <div class="card story-card">
+                                <div class="card-header">
+                                    <h5 class="story-title">@Html.DisplayFor(modelItem => item.Title)</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="story-content">@Html.DisplayFor(modelItem => item.Content)</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <form asp-action="Delete" asp-route-id="@item.Id" method="post">
+                                        <input type="submit" value="Delete" class="btn btn-danger" />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="/css/Stories.css" />

@@ -1,0 +1,225 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    @{
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Stories.css" />
+    <title>Generate Story</title>
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.Error
+        </div>
+    }
+    <style>
+        body {
+            background-color: #d4f0f9; 
+            text-align: center;
+        }
+
+        h2 {
+            color: #ff7f50;
+            font-size: 48px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        label {
+            font-size: 24px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        textarea {
+            width: 60%;
+            height: 100px;
+            font-size: 18px;
+            padding: 10px;
+            border: 2px solid #ff7f50;
+            border-radius: 8px;
+            resize: none;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #ff7f50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 24px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+            button:hover {
+                background-color: #e45e30;
+            }
+
+        .category-title {
+            color: #80c4e9;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .category-section {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .category-item {
+            width: 150px;
+            text-align: center;
+            color: #ff7f50;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+            .category-item img {
+                width: 150px;
+                height: 150px;
+                border-radius: 10px;
+                object-fit: cover;
+            }
+
+        .section {
+            margin-top: 50px;
+        }
+
+    </style>
+
+    <script>
+        let selectedItems = 0; 
+
+        function addToStory(text) {
+            if (selectedItems < 3) {  
+                const textarea = document.getElementById('inputText');
+                textarea.value += " " + text;  
+                selectedItems++; 
+            } else {
+                alert("لا يمكنك اختيار أكثر من 3 عناصر.");
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div class="section">
+        <div class="category-title">اختر الأشخاص</div>
+        <div class="category-section">
+            <div class="category-item" onclick="addToStory('الأصدقاء')">
+                <img src="~/images/friends.jpg" alt="الأصدقاء">
+                <div>الأصدقاء</div>
+            </div>
+            <div class="category-item" onclick="addToStory('المعلم')">
+                <img src="~/images/teacher.jpg" alt="المعلم">
+                <div>المعلم</div>
+            </div>
+            <div class="category-item" onclick="addToStory('الإخوان')">
+                <img src="~/images/siblings.jpg" alt="الإخوان">
+                <div>الإخوان</div>
+            </div>
+            <div class="category-item" onclick="addToStory('الوالدين')">
+                <img src="~/images/parents.jpg" alt="الوالدين">
+                <div>الوالدين</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="category-title">اختر الحيوانات</div>
+        <div class="category-section">
+            <div class="category-item" onclick="addToStory('البطة')">
+                <img src="~/images/duck.jpg" alt="البطة">
+                <div>البطة</div>
+            </div>
+            <div class="category-item" onclick="addToStory('الفيل')">
+                <img src="~/images/elephant.jpg" alt="الفيل">
+                <div>الفيل</div>
+            </div>
+            <div class="category-item" onclick="addToStory('الزرافة')">
+                <img src="~/images/giraffe.jpg" alt="الزرافة">
+                <div>الزرافة</div>
+            </div>
+            <div class="category-item" onclick="addToStory('الأسد')">
+                <img src="~/images/lion.jpg" alt="الأسد">
+                <div>الأسد</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="category-title">اختر مكان القصة</div>
+        <div class="category-section">
+            <div class="category-item" onclick="addToStory('الغابة')">
+                <img src="~/images/forest.jpg" alt="الغابة">
+                <div>الغابة</div>
+            </div>
+            <div class="category-item" onclick="addToStory('المنزل')">
+                <img src="~/images/home.jpg" alt="المنزل">
+                <div>المنزل</div>
+            </div>
+            <div class="category-item" onclick="addToStory('المدرسة')">
+                <img src="~/images/school.jpg" alt="المدرسة">
+                <div>المدرسة</div>
+            </div>
+            <div class="category-item" onclick="addToStory('الحديقة')">
+                <img src="~/images/park.jpg" alt="الحديقة">
+                <div>الحديقة</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="category-title">اختر موسم القصة</div>
+        <div class="category-section">
+            <div class="category-item" onclick="addToStory('الخريف')">
+                <img src="~/images/autumn.jpg" alt="الخريف">
+                <div>الخريف</div>
+            </div>
+            <div class="category-item" onclick="addToStory('الربيع')">
+                <img src="~/images/spring.jpg" alt="الربيع">
+                <div>الربيع</div>
+            </div>
+            <div class="category-item" onclick="addToStory('الشتاء')">
+                <img src="~/images/winter.jpg" alt="الشتاء">
+                <div>الشتاء</div>
+            </div>
+            <div class="category-item" onclick="addToStory('الصيف')">
+                <img src="~/images/summer.jpg" alt="الصيف">
+                <div>الصيف</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="category-title">اختر وقت القصة</div>
+        <div class="category-section">
+            <div class="category-item" onclick="addToStory('المساء')">
+                <img src="~/images/night.jpg" alt="المساء">
+                <div>المساء</div>
+            </div>
+            <div class="category-item" onclick="addToStory('الصباح')">
+                <img src="~/images/morning.jpg" alt="الصباح">
+                <div>الصباح</div>
+            </div>
+        </div>
+    </div>
+    <form asp-action="GenerateStory" method="post">
+        <label for="inputText">ادخل قصتك الخاصة:</label><br />
+        <textarea id="inputText" name="inputText" rows="4" cols="50" placeholder="ادخل قصتك الخاصة هنا..."></textarea><br /><br />
+        <button type="submit">انشاء قصة</button>
+    </form>
+</body>
+</html>

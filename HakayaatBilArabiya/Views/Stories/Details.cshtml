@@ -1,0 +1,18 @@
+﻿@model HakayaatBilArabiya.Models.Story
+
+<h2>@Model.Title</h2>
+<p>@Model.Content</p>
+<p>Category: @Model.Category</p>
+
+<h3>Comments</h3>
+<ul>
+    @foreach (var comment in Model.Comments)
+    {
+        <li>@comment.Content</li>
+    }
+</ul>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+</p>

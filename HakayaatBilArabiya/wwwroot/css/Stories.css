@@ -1,0 +1,224 @@
+﻿@font-face {
+    font-family: 'Blabeloo';
+    src: url('../fonts/Blabeloo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.story-heading {
+    font-family: 'Blabeloo', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #80c4e9;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.small-logo {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.start-button {
+    background-color: #ff7f50;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 1px; 
+}
+
+    .start-button:hover {
+        background-color: #ffcc00;
+    }
+
+.card.custom-card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.table-bordered th, .table-bordered td {
+    font-family: 'Blabeloo', sans-serif;
+    font-size: 18px;
+    color: #ff7f50;
+    text-align: center;
+}
+
+.story-text {
+    text-align: justify;
+    line-height: 1.6;
+    font-family: 'Blabeloo', sans-serif;
+    font-size: inherit;
+}
+
+.btn-warning {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+    .btn-warning:hover {
+        background-color: #ffa500;
+        color: white;
+    }
+
+.story-card {
+    background-color: #fffbe7;
+    border: 3px solid #ffa07a;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px; 
+}
+
+    .story-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+
+.story-title {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    color: #ff6347;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.story-content {
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffefc7;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: justify;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.card-footer {
+    background-color: transparent;
+    border-top: none;
+    text-align: center;
+}
+
+.btn-danger {
+    background-color: #ff6347;
+    border-color: #ff6347;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+    .btn-danger:hover {
+        background-color: #d9534f;
+        border-color: #d9534f;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 80vh; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.custom-card {
+    flex-grow: 1;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #ff7f50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.story-card::before {
+    content: '⭐';
+    font-size: 40px;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    color: #ffcc00;
+}
+
+.story-card::after {
+    content: '🎈';
+    font-size: 40px;
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    color: #ff6347;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+.story-wrapper {
+    border: 5px dashed #ff7f50; 
+    border-radius: 40px; 
+    padding: 40px; 
+    background-color: #fffaf0; 
+    margin-top: 30px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); 
+    position: relative;
+    overflow: hidden;
+}
+
+    .story-wrapper::before {
+        content: '🌟🌈🎠'; 
+        font-size: 50px;
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        color: #ffcc00; 
+    }
+
+    .story-wrapper::after {
+        content: '🎈🎉🍭'; 
+        font-size: 50px;
+        position: absolute;
+        bottom: -15px;
+        right: -15px;
+        color: #ff6347; 
+    }
+
+    .story-wrapper:hover {
+        border-color: #ffa500;
+        background-color: #fff7e6; 
+        transform: scale(1.02); 
+        transition: all 0.3s ease-in-out;
+    }

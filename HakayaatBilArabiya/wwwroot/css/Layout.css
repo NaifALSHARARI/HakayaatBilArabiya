@@ -1,0 +1,8 @@
+﻿@font-face {
+    font-family: 'Blabeloo';
+    src: url('/fonts/Blabeloo.ttf') format('truetype'); 
+}
+
+body {
+    font-family: 'Blabeloo', sans-serif;
+}

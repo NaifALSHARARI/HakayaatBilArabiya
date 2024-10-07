@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+@model IEnumerable<HakayaatBilArabiya.Models.Story>
+
+@{
+    ViewData["Title"] = "Stories";
+}
+
+<div class="container">
+    <!-- العنوان الرئيسي -->
+    <h1 class="text-center story-heading">ابدأ كتابة قصتك الخاصة</h1>
+
+    <div class="card p-3 mb-5 custom-card">
+        <!-- زر إنشاء قصة جديدة -->
+        <div class="text-center mb-3">
+            <a asp-action="GenerateStory" class="btn btn-primary">Generate New Story</a>
+        </div>
+
+        <!-- جدول عرض القصص -->
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th class="text-warning">Title</th>
+                    <th class="text-warning">Content</th>
+                    <th class="text-warning">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </td>
+                        <td class="story-text">
+                            @Html.DisplayFor(modelItem => item.Content)
+                        </td>
+                        <td>
+                            <form asp-action="Delete" asp-route-id="@item.Id" method="post">
+                                <input type="submit" value="Delete" class="btn btn-warning" />
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
